@@ -18,5 +18,7 @@ paginate:         5
 # Custom vars
 version:          1.0.0
 
+Python:           /_post/python
+
 github:
   repo:           https://github.com/raacker
