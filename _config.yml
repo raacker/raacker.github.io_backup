@@ -27,6 +27,9 @@ Python:           /python/
 github:
   repo:           https://github.com/raacker
 
+LinkedIn:
+  addr:           https://kr.linkedin.com/in/heongyeom-kim-633650113
+
 # Atom Setting
 atom:
   buildCommand:
