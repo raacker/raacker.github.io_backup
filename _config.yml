@@ -8,8 +8,8 @@ permalink:        pretty
 title:            Haven Kim
 tagline:          'Junior Developer'
 description:      'Jekyll blog of strange developer, Haven Kim. Usign Hyde theme made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:
-baseurl:          https://raacker.github.io/
+url:              https://raacker.github.io/
+baseurl:          /
 
 author:
   name:           'Haven Kim'
@@ -22,8 +22,6 @@ gems:             [jekyll-paginate]
 
 # Custom vars
 version:          1.0.0
-
-Python:           /python/
 
 github:
   repo:           https://github.com/raacker
