@@ -9,7 +9,7 @@ title:            Haven Kim
 tagline:          'Junior Developer'
 description:      'Jekyll blog of strange developer, Haven Kim. Usign Hyde theme made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:
-baseurl:          /
+baseurl:          https://raacker.github.io/
 
 author:
   name:           'Haven Kim'
@@ -17,6 +17,7 @@ author:
 
 # Use Paginate
 paginate:         5
+paginate_path:    '/blog/page:num'
 gems:             [jekyll-paginate]
 
 # Custom vars
@@ -29,6 +30,7 @@ github:
 
 LinkedIn:
   addr:           https://kr.linkedin.com/in/heongyeom-kim-633650113
+
 
 # Atom Setting
 atom:

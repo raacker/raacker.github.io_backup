@@ -2,6 +2,8 @@
 layout: post
 title: "Various List Functions"
 date: "2016-07-30 21:20:10 +0900"
+category: Python
+tags: [Self-study, python]
 ---
 
 There are a lot of list functions.
