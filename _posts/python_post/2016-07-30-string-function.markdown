@@ -2,6 +2,8 @@
 layout: post
 title: "String Methods"
 date: "2016-07-30 21:04:30 +0900"
+category: Python
+tags: [Self-study, python]
 ---
 
 Python has really various string methods. It is really useful and powerful. Must be handy!
