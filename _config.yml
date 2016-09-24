@@ -7,6 +7,7 @@ permalink:        pretty
 # Setup
 title:            Haven Kim
 tagline:          'Junior Developer'
+
 description:      'Jekyll blog of strange developer, Haven Kim. Usign Hyde theme made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'    
 baseurl:          https://raacker.github.io/
 
