@@ -14,20 +14,20 @@ Let's see some cheat-sheet.
 <h3>1) Negative value </h3>
 
 {% highlight python %}
-    test_array = [1,2,3,4,5,6]
-    print test_array[::-1]
+test_array = [1,2,3,4,5,6]
+print test_array[::-1]
 
-    >>> [6,5,4,3,2,1]
+>>> [6,5,4,3,2,1]
 
 {% endhighlight %}
 
 using negative value gives reverse way to list. when the third value is negative, it iterates reversely.
 
 {% highlight python %}
-    test_array = [1,2,3,4,5,6]
-    print test_array[1:-1]
+test_array = [1,2,3,4,5,6]
+print test_array[1:-1]
 
-    >>> [2,3,4,5]
+>>> [2,3,4,5]
 
 {% endhighlight %}
 
@@ -37,14 +37,14 @@ When it comes to first or second place, it means count from the end of list. so,
 <h3>2) all and any</h3>
 
 {% highlight python %}
-    test_array = [10,30,50,60,70]
-    if all([i >= 10 for elem in test_array]):
-        print "All elements are greater than 10"
-    >>> All elements are greater than 10
+test_array = [10,30,50,60,70]
+if all([i >= 10 for elem in test_array]):
+    print "All elements are greater than 10"
+>>> All elements are greater than 10
 
-    if any([i % 2 == 0 for elem in test_array]):
-        print "All elements are even number"
-    >>> All elements are even number
+if any([i % 2 == 0 for elem in test_array]):
+    print "All elements are even number"
+>>> All elements are even number
 
 {% endhighlight %}
 
@@ -54,15 +54,15 @@ all and any methods can be used to determine if list satisfies given boolean exp
 <h3>3) enumerate</h3>
 
 {% highlight python %}
-    test_array = [10,30,50,60,70]
-    for v in enumerate(test_array):
-      print v
+test_array = [10,30,50,60,70]
+for v in enumerate(test_array):
+  print v
 
-    >>>(0,10)
-       (1,30)
-       (2,50)
-       (3,60)
-       (4,70)
+  >>>(0,10)
+     (1,30)
+     (2,50)
+     (3,60)
+     (4,70)
 
 {% endhighlight %}
 
@@ -72,16 +72,16 @@ enumerate method makes list into tuples which has index for its first value and 
 <h3>4) map</h3>
 
 {% highlight python %}
-    def multi_two(value):
-        return value * 2
+def multi_two(value):
+    return value * 2
 
-    test_list = [10,20,30,40]
-    print map(multi_two, test_list)
-    >>> [20,40,60,80]
+test_list = [10,20,30,40]
+print map(multi_two, test_list)
+>>> [20,40,60,80]
 
-    # Using lambda would be more simple
-    print map(lambda x : x*2, test_list)
-    >>> [20,40,60,80]
+# Using lambda would be more simple
+print map(lambda x : x*2, test_list)
+>>> [20,40,60,80]
 
 {% endhighlight %}
 
@@ -96,10 +96,10 @@ If lambda is used, it will be more simple!
 <h3>5) filter</h3>
 
 {% highlight python %}
-    test_list = [10,13,15,20]
+test_list = [10,13,15,20]
 
-    print filter(lambda x : x%2 == 0, test_list)
-    >>> [10, 20]
+print filter(lambda x : x%2 == 0, test_list)
+>>> [10, 20]
 
 {% endhighlight %}
 

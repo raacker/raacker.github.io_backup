@@ -13,14 +13,14 @@ Python is also really great functional programming language.
 In functional language, function is <b>Higher-order Function</b>. function can be passed as an argument and also returned in function. Function can be a object itself!
 
 {% highlight python %}
-    def run_twice(func, arg):
-        return func(func(arg))
+def run_twice(func, arg):
+    return func(func(arg))
 
-    def multi_two(x):
-        return x * 2
+def multi_two(x):
+	return x * 2
 
-    print run_twice(multi_two(5))
-    >>>20
+print run_twice(multi_two(5))
+>>>20
 
 {% endhighlight %}
 
@@ -39,15 +39,15 @@ Pure function means it doesn't change or effect to anything, even arguments. So 
 And also x will never effected by function.
 
 {% highlight python %}
-    def add_element_to_list(arg_list):
-        arg_list.append("Appended by function")
+def add_element_to_list(arg_list):
+    arg_list.append("Appended by function")
 
-    test_list = ["Hello"]
-    print add_element_to_list(test_list)
-    print add_element_to_list(test_list)
+test_list = ["Hello"]
+print add_element_to_list(test_list)
+print add_element_to_list(test_list)
 
-    >>>["Hello", "Appended by function"]
-    >>>["Hello", "Appended by function", "Appended by function"]
+>>>["Hello", "Appended by function"]
+>>>["Hello", "Appended by function", "Appended by function"]
 
 {% endhighlight %}
 

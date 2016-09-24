@@ -11,8 +11,8 @@ Python supports easiest file handling modules.
 For easy opening,
 
 {% highlight python %}
-  with open("filename.txt") as f:
-      print(f.read())
+with open("filename.txt") as f:
+  print(f.read())
 {% endhighlight %}
 
 just open 'filename.txt' and use it instantly!
