@@ -8,25 +8,34 @@ tags: [Self-study, python, til]
 
 <h3>1) Return None automatically.</h3>
 
+{% highlight python %}
 if self.outstack:
+{% endhighlight %}
 
 It will return boolean value that outstack is exist or not.
 
 
 <h3>2) Double matching</h3>
 
+{% highlight python %}
 ('{' , '}')
 if (open, close) in matches:
+{% endhighlight %}
 
 Python is available in double matching in if or while statement.
 
 Also swap function can be..
+
+{% highlight python %}
 a, b = b, a
+{% endhighlight %}
 
 
 <h3>3) Instance sorting</h3>
 
+{% highlight python %}
 cluster_list.sort(key = lambda cluster : cluster.vert_center())
+{% endhighlight %}
 
 It is possible to make a sorting factor via lambda. Even classes.
 Above code is showing that cluster_list would be sorted in ascending with vert_center value.
@@ -34,16 +43,20 @@ Above code is showing that cluster_list would be sorted in ascending with vert_c
 
 <h3>4) Generate empty set list</h3>
 
+{% highlight python %}
 setList = [set() for i in range(len(cluster_list))]
+{% endhighlight %}
 
 It will generate list of sets
 
 
 <h3>5) Make dictionary for key list and value list</h3>
 
+{% highlight python %}
 key = [1, 2, 3]
 value  = [11, 12, 13]
 list_a = dict(zip(key, value))
+{% endhighlight %}
 
 zip method will concatenate key and value list for each corresponding element.
 
@@ -52,9 +65,15 @@ zip method will concatenate key and value list for each corresponding element.
 
 In python, string is also a list.
 
+{% highlight python %}
 l = "hello" is ['h', 'e', 'l', 'l', 'o']
+{% endhighlight %}
 
-and random.shuffle(l)
+and
+
+{% highlight python %}
+random.shuffle(l)
+{% endhighlight %}
 
 will generate a list that contains random element of argument list.
 
@@ -63,9 +82,13 @@ will generate a list that contains random element of argument list.
 
 A list can be changed to set.
 
+{% highlight python %}
 l = 'hello'
 s = set(l)
+{% endhighlight %}
 
 will generate
 
+{% highlight python %}
 set[('h', 'e', 'l', 'o')]
+{% endhighlight %}
