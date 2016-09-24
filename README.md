@@ -1,3 +1,3 @@
 # Haven Kim's jekyll Blog
 
-Used <a href="http://github.com/poole/hyde>Hyde</a>
+Used [Hyde](http://github.com/poole/hyde)
