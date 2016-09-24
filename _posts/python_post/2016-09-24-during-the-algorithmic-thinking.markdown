@@ -2,7 +2,7 @@
 layout: post
 title: "During the Algorithmic Thinking"
 date: "2016-09-24 16:18:46 +0900"
-category: TIL, Python
+category: Python
 tags: [Self-study, python, til]
 ---
 
