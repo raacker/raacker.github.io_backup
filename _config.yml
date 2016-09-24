@@ -8,7 +8,7 @@ permalink:        pretty
 title:            Haven Kim
 tagline:          'Junior Developer'
 
-description:      'Jekyll blog of strange developer, Haven Kim. Usign Hyde theme made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'    
+description:      'Jekyll blog of strange developer, Haven Kim.'
 baseurl:          https://raacker.github.io/
 
 author:
@@ -21,7 +21,7 @@ paginate_path:    '/blog/page:num'
 gems:             [jekyll-paginate]
 
 # Custom vars
-version:          1.0.0
+version:          1.0.1
 
 github:
   repo:           https://github.com/raacker

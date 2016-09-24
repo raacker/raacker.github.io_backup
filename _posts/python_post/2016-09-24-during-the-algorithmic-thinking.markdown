@@ -34,7 +34,8 @@ a, b = b, a
 <h3>3) Instance sorting</h3>
 
 {% highlight python %}
-cluster_list.sort(key = lambda cluster : cluster.vert_center())
+cluster_list.sort(key =
+    lambda cluster : cluster.vert_center())
 {% endhighlight %}
 
 It is possible to make a sorting factor via lambda. Even classes.
