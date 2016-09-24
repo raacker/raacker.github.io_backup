@@ -6,14 +6,14 @@ category: TIL, Python
 tags: [Self-study, python, til]
 ---
 
-1. Return None automatically.
+<h3>1) Return None automatically.</h3>
 
 if self.outstack:
 
 It will return boolean value that outstack is exist or not.
 
 
-2. Double matching
+<h3>2) Double matching</h3>
 
 ('{' , '}')
 if (open, close) in matches:
@@ -24,7 +24,7 @@ Also swap function can be..
 a, b = b, a
 
 
-3. Instance sorting
+<h3>3) Instance sorting</h3>
 
 cluster_list.sort(key = lambda cluster : cluster.vert_center())
 
@@ -32,14 +32,14 @@ It is possible to make a sorting factor via lambda. Even classes.
 Above code is showing that cluster_list would be sorted in ascending with vert_center value.
 
 
-4. Generate empty set list
+<h3>4) Generate empty set list</h3>
 
 setList = [set() for i in range(len(cluster_list))]
 
 It will generate list of sets
 
 
-5. Make dictionary for key list and value list
+<h3>5) Make dictionary for key list and value list</h3>
 
 key = [1, 2, 3]
 value  = [11, 12, 13]
@@ -48,7 +48,7 @@ list_a = dict(zip(key, value))
 zip method will concatenate key and value list for each corresponding element.
 
 
-6. String list and random.shuffle()
+<h3>6) String list and random.shuffle()</h3>
 
 In python, string is also a list.
 
@@ -59,7 +59,7 @@ and random.shuffle(l)
 will generate a list that contains random element of argument list.
 
 
-7. Set generator
+<h3>7) Set generator</h3>
 
 A list can be changed to set.
 
