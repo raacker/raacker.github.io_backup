@@ -50,6 +50,10 @@ setList = [set() for i in range(len(cluster_list))]
 
 It will generate list of sets
 
+also, it can be
+{% highlight python %}
+setList = [set()] * len(cluster_list)
+{% endhighlight %}
 
 <h3>5) Make dictionary for key list and value list</h3>
 
