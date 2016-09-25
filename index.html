@@ -14,8 +14,12 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}  </span>
     <div class="tags-expo-list">
-      {% for tag in site.categories %}
-      <a href="{{ site.baseurl }}/category/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }}</a>
+      {% for tag in site.tags %}
+        {% for post_tag in tag[1] %}
+          {% if post_tag.title == post.title %}
+            <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }}</a>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
     {{ post.content }}
