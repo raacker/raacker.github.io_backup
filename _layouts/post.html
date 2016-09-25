@@ -9,7 +9,7 @@ layout: default
     {% for tag in site.tags %}
       {% for post_tag in tag[1] %}
         {% if post_tag.title == page.title %}
-          <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }}</a>
+          <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }} </a>
         {% endif %}
       {% endfor %}
     {% endfor %}
