@@ -3,7 +3,7 @@ layout: post
 date:   2016-07-30 18:14:10 +0900
 title: Working with Files
 category: Python
-tags: [Self-study, python]
+tags: [python]
 ---
 
 Python supports easiest file handling modules.

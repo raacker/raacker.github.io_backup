@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "During the Algorithmic Thinking"
+title: "New things during the Algorithmic Thinking"
 date: "2016-09-24 16:18:46 +0900"
 category: Python
-tags: [Self-study, python, til]
+tags: [python, til]
 ---
+
+Check out amazing coursera course [Algorithmic Thinking Part 1](https://www.coursera.org/learn/algorithmic-thinking-1) and [Algorithmic Thinking Part 2](https://www.coursera.org/learn/algorithmic-thinking-2).
 
 <h3>1) Return None automatically.</h3>
 

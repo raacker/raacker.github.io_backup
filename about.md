@@ -17,6 +17,6 @@ Currently, I'm working on my own vim automate setting and trying to contribute o
 Feel free to help me out or ask me.
 
 
-This blog built in [Jekyll](http://jekyllrb.com)], theme for [Hyde](http://hyde.getpoole.com)
+This blog built in [Jekyll](http://jekyllrb.com), theme for [Hyde](http://hyde.getpoole.com)
 Originally, made by [@mdo](https://twitter.com/mdo).
 Learn more and contribute on [GitHub](https://github.com/poole)!
