@@ -9,7 +9,8 @@ title:            Haven Kim
 tagline:          'Junior Developer'
 
 description:      'Jekyll blog of strange developer, Haven Kim.'
-baseurl:          https://raacker.github.io/
+baseurl:          /
+#https://raacker.github.io/
 
 author:
   name:           'Haven Kim'
