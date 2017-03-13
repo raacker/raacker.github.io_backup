@@ -6,6 +6,7 @@ title: About This Blog
 
 <p class="message">
   Greeting from South Korea! My Name is Heongyeom Kim. You can call me Haven.
+  
   Open Source, Raspberry Pi, Vim and geek of Linux.
 </p>
 
