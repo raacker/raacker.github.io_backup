@@ -23,8 +23,8 @@ The answer was using **nohup**.
 {% highlight text %}
 nohup is a POSIX command to ignore the HUP (hangup) signal. The HUP signal is, by convention, the way a terminal warns dependent processes of logout.
 
-Reference : https://en.wikipedia.org/wiki/Nohup
 {% endhighlight %}
+Reference : [https://en.wikipedia.org/wiki/Nohup](https://en.wikipedia.org/wiki/Nohup)
 
 In other words, noHUP is used for background process which needs to be run whenever the shell is logout or not.
 
@@ -34,7 +34,7 @@ Our server startup code was like this.
 java -Xmx1024M -Xms2014M -jar minecraft_server.1.11.2.jar nogui
 {% endhighlight %}
 
-You can find this code on official website. https://minecraft.net/en-us/download/server
+You can find this code on official website. [https://minecraft.net/en-us/download/server](https://minecraft.net/en-us/download/server)
 
 Now we want to run minecraft server as background!
 

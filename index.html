@@ -27,6 +27,12 @@ title: Home
   {% endfor %}
 </div>
 
+<div class="bottom-page">
+  <a class="bottom-page-tags" href="{{ site.baseurl }}tags">Go find more posts with tags</br></a>
+  <a class="bottom-page-categories" href="{{ site.baseurl }}category">Go find more posts with categories</a>
+</div>
+
+{% comment %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
@@ -43,3 +49,4 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+{% endcomment %}

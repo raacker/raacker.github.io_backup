@@ -3,7 +3,7 @@ layout: post
 title: "Functional Programming with Python"
 date: "2016-07-30 21:35:47 +0900"
 category: Python
-tags: [python]
+tags: [python study]
 ---
 
 Python is also really great functional programming language.
