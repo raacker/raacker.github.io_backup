@@ -3,6 +3,7 @@ layout: post
 title: "New things during the Algorithmic Thinking"
 date: "2016-09-24 16:18:46 +0900"
 location: "Daejeon, South Korea"
+commentIssueId: 11
 category: Python
 tags: [python study, til]
 ---

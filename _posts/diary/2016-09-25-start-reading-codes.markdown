@@ -3,6 +3,7 @@ layout: post
 title: "Start reading codes"
 date: "2016-09-25 15:04:35 +0900"
 location: "Daejeon, South Korea"
+commentIssueId: 5
 category: Diary
 tags: [diary, neovim, opensource]
 ---

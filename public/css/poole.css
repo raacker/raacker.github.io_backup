@@ -26,6 +26,7 @@
  * Pagination
  * Reverse layout
  * Themes
+ * Comments
  */
 
 
@@ -330,7 +331,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 /* Blog post or page title */
@@ -363,9 +364,8 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
+  padding-top: 0rem;
   padding-bottom: 2rem;
-  border-top: 1px solid #eee;
 }
 .related-posts {
   padding-left: 0;
@@ -439,26 +439,39 @@ a.pagination-item:hover {
   }
 }
 
+/*
+ * Comments
+ *
+ * Github issue commenting system.
+ */
+
+.comments {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .comment {
     background-color: transparent;
-    border-color: #CACACA;
+    border-color: #9A9A9A;
     border-style: solid;
     border-width: 1px;
     color: black;
     display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     padding: 0px;
     width: 100%;
   }
 
 .comment .commentheader {
-  border-bottom-color: #CACACA;
+  border-bottom-color: #9A9A9A;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   color: black;
-  background-image: -webkit-linear-gradient(#F8F8F8,#E1E1E1);
-  background-image: -moz-linear-gradient(#F8F8F8,#E1E1E1);
+  background-color: #D6E6F8;
   color: black;
   display: block;
   float: left;
@@ -485,7 +498,7 @@ a.pagination-item:hover {
   background-color: white;
   background-image: none;
   background-origin: padding-box;
-  border-color: #C8C8C8;
+  border-color: #9A9A9A;
   border-style: solid;
   border-width: 1px;
   color: black;
@@ -496,19 +509,19 @@ a.pagination-item:hover {
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
-  height: 20px;
+  height: 23px;
+  width: 23px;
   line-height: 1px;
   margin-left: 5px;
   margin-right: 3px;
   margin-top: -2px;
   overflow-x: visible;
   overflow-y: visible;
-  padding: 1px;
+  padding: 0.5px;
   text-overflow: clip;
   text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px;
   vertical-align: middle;
   white-space: nowrap;
-  width: 20px;
 }
 
 .comment .commentheader a:link {

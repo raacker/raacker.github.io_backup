@@ -3,6 +3,7 @@ layout: post
 title: "Functional Programming with Python"
 date: "2016-07-30 21:35:47 +0900"
 location: "Daejeon, South Korea"
+commentIssueId: 7
 category: Python
 tags: [python study]
 ---

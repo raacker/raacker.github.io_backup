@@ -16,38 +16,53 @@ layout: default
     {% endfor %}
   </div>
   {{ content }}
-
-  <div id="comments">
-    <h2>Comments</h2>
-    <div id="header">
-      Want to leave a comment? Visit <a href="https://github.com/raacker/raacker.github.io/issues/{{page.commentIssueId}}"> this post's issue page on GitHub.</a>
-    </div>
-  </div>
-
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
-
-  <script type="text/javascript">
-    function loadComments(data) {
-      for (var i=0; i<data.length; i++) {
-        var cuser = data[i].user.login;
-        var cuserlink = "https://www.github.com/" + data[i].user.login;
-        var clink = "https://github.com/raacker/raacker.github.io/issues/{{page.commentIssueId}}#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
-        var cbody = data[i].body_html;
-        var cavatarlink = data[i].user.avatar_url;
-        var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm:ss");
-        $("#comments").append("<div class='comment'><div class='commentheader'><div class='commentgravatar'>" + '<img src="' + cavatarlink + '" alt="" width="20" height="20">' + "</div><a class='commentuser' href=\""+ cuserlink + "\">" + cuser + "</a><a class='commentdate' href=\"" + clink + "\">" + cdate + "</a></div><div class='commentbody'>" + cbody + "</div></div>");
-      }
-    }
-    $.ajax("https://api.github.com/repos/raacker/raacker.github.io/issues/{{page.commentIssueId}}/comments?per_page=100", {
-      headers: {Accept: "application/vnd.github.v3.html+json"},
-      dataType: "json",
-      success: function(msg){
-        loadComments(msg);
-     }
-    });
-  </script>
-
 </div>
+
+<div id="comments" class="comments">
+  <h2>Comments</h2>
+  <div id="header">
+    Want to leave a comment? Visit <a href="https://github.com/raacker/raacker.github.io/issues/{{page.commentIssueId}}"> this post's issue page on GitHub.</a></br> (You'll need a github account)
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+  function loadComments(data) {
+    for (var i=0; i<data.length; i++) {
+      var cuser = data[i].user.login;
+      var cuserlink = data[i].user.html_url;
+      var clink = data[i].html_url;
+      var cbody = data[i].body_html;
+      var cavatarlink = data[i].user.avatar_url;
+      var cdate = new Date(data[i].created_at);
+      $("#comments").append(
+         "<div class='comment'>" +
+            "<div class='commentheader'>" +
+              "<div class='commentgravatar'>" +
+                '<img src="' + cavatarlink + '" alt="" width="20" height="20">' +
+              "</div>" +
+              "<a class='commentuser' href=\""+ cuserlink + "\">" +
+                cuser +
+              "</a>" +
+              "<a class='commentdate' href=\"" + clink + "\">" +
+                cdate.toLocaleDateString("en") +
+              "</a>" +
+            "</div>" +
+            "<div class='commentbody'>" +
+              cbody +
+            "</div>" +
+          "</div>"
+      );
+    }
+  }
+  $.ajax("https://api.github.com/repos/raacker/raacker.github.io/issues/{{page.commentIssueId}}/comments", {
+    headers: {Accept: "application/vnd.github.v3.html+json"},
+    dataType: "json",
+    success: function(msg){
+      loadComments(msg);
+   }
+  });
+</script>
 
 <div class="related">
   <h2>Related Posts</h2>
