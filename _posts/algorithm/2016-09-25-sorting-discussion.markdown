@@ -2,6 +2,7 @@
 layout: post
 title: "Sorting Discussion"
 date: "2016-09-25 11:33:45 +0900"
+location: "Daejeon, South Korea"
 category: Algorithm
 tags: [til]
 ---

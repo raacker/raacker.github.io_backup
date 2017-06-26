@@ -1,6 +1,7 @@
 ---
 layout: post
 date:   2016-07-30 18:14:10 +0900
+location: "Daejeon, South Korea"
 title: Working with Files
 category: Python
 tags: [python study]

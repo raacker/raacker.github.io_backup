@@ -2,6 +2,7 @@
 layout: post
 title: "String Methods"
 date: "2016-07-30 21:04:30 +0900"
+location: "Daejeon, South Korea"
 category: Python
 tags: [python study]
 ---

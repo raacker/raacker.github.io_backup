@@ -2,6 +2,7 @@
 layout: post
 title: "Get back to sophomore"
 date: "2017-03-13 23:10:38 +0900"
+location: "Daejeon, South Korea"
 category: Diary
 tags: [diary, raspberry pi, embedded, opensource]
 ---

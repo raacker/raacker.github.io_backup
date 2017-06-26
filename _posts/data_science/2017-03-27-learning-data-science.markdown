@@ -2,6 +2,7 @@
 layout: post
 title: "Learning Data Science"
 date: "2017-03-27 18:43:07 +0900"
+location: "Daejeon, South Korea"
 category: Data Science
 tags: [python study, R, data science]
 ---
