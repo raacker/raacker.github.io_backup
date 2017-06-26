@@ -6,7 +6,7 @@ title: About This Blog
 
 <p class="message">
   Greeting from South Korea! My Name is Heongyeom Kim. You can call me Haven.
-  
+
   Open Source, Raspberry Pi, Vim and geek of Linux.
 </p>
 
@@ -15,6 +15,8 @@ I'm majoring in Computer Science & Engineering in Korea. It's my last year of th
 I really love to talk with people from other countries. That's why I've been doing penpal for more than 8 years. Love to use English and learn new cultures!
 
 Mostly, I took a part of a leader in a group, even a single project team. I learned a lot of important things from that and I'm using it as my special skill.
+
+My main linux distribution is [Linux Mint](https://www.linuxmint.com/).
 
 Really love to make a funny things with my raspberry pi. It's like a upgraded Lego!
 

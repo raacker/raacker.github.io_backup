@@ -33,7 +33,7 @@ In other words, noHUP is used for background process which needs to be run whene
 Our server startup code was like this.
 
 {% highlight bash %}
-java -Xmx1024M -Xms2014M -jar minecraft_server.1.11.2.jar nogui
+$ java -Xmx1024M -Xms2014M -jar minecraft_server.1.11.2.jar nogui
 {% endhighlight %}
 
 You can find this code on official website. [https://minecraft.net/en-us/download/server](https://minecraft.net/en-us/download/server)
@@ -43,7 +43,7 @@ Now we want to run minecraft server as background!
 then shell script will be like this.
 
 {% highlight bash %}
-nohup java -Xmx1024M -Xms2014M -jar minecraft_server.1.11.2.jar nogui &
+$ nohup java -Xmx1024M -Xms2014M -jar minecraft_server.1.11.2.jar nogui &
 {% endhighlight %}
 
 You can't find this process via single ps command.
@@ -51,7 +51,7 @@ You can't find this process via single ps command.
 use
 
 {% highlight bash %}
-ps -ef | grep nohup
+$ ps -ef | grep nohup
 {% endhighlight %}
 
 the logs will be included in nohup.out in the same directory where your file located.

@@ -4,7 +4,7 @@ title: "Learning Data Science"
 date: "2017-03-27 18:43:07 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 4
-category: Data Science
+category: DataScience
 tags: [python study, R, data science]
 ---
 

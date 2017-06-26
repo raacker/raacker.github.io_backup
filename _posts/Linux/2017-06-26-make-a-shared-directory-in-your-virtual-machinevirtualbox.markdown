@@ -17,7 +17,7 @@ I'll post a way to make shared directory on Virtualbox system. But it will be ve
 Step1. Give a permission to your user group
 
 {% highlight bash %}
-usermod -G vboxsf -a "username"
+$ usermod -G vboxsf -a "username"
 {% endhighlight %}
 
 Step2. Make a directory that you want to use as a shared one.
@@ -32,4 +32,4 @@ Step3. Just reboot!
 
 Now you can find the sf_'folder name' on your desktop.
 
-When I tried this with Lubuntu, it didn't work well actually. I think some of linux distribution support automation or shared folder options. If you're facing the problem, feel free to comment below.
+When I tried this with Lubuntu, it didn't work well actually. I think some of linux distribution support automation or shared folder options. If you're facing any problem, feel free to comment below.
