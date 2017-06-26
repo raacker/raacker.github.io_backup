@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "xls to csv"
+title: "xls to csv and encoding problem"
 date: "2017-06-26 21:55:29 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 13
 category: DataScience
-tags: [python, R, data science]
+tags: [python, R, data science, encoding]
 ---
 
 Well, most of times, you should reprocess your dataset, including cleansing. It can be separate or merge the columns or delete some miss placed data. Recently, lots of people use CSV or TSV format as the datasets' format. But sometimes, what you found in the open data site or somewhere can be excel format, like xls or xlsx. In these situations, you need only one line command.
@@ -33,3 +33,17 @@ If you want to know what types of format supported, try this. Or just checkout t
 $ ssconvert --list-importers
 $ ssconvert --list-exporters
 {% endhighlight %}
+
+Okay It's all done well! Great job. But... my file crashed with bad unicodes..
+
+then try this.
+
+{% highlight bash %}
+$ iconv -f "from this encode" -t "to this encode" filename.csv > filename.csv
+
+like this way,
+
+$ iconv -f euc-kr -t utf-8 2015_broken_encode_set.csv > 2015.csv
+{% endhighlight %}
+
+It will give you a very simple and perfect result.

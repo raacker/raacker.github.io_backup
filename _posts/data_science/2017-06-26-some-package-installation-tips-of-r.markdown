@@ -21,13 +21,13 @@ Here's tips of some package installation that I tried before.
 
 [ggmap](https://github.com/dkahle/ggmap) is really amazing tool. You can use google map and draw circles or any things for good looking plots. But if you face impossible-to-solve problems? here we go.
 
-Most of case, just these two were problem. Almost every packages will be installed without any scream.
+Most of the cases, just these two were problems. Almost every packages will be installed without any scream.
 
 {% highlight bash %}
 $ sudo apt-get install libpng-dev libjpeg-dev
 {% endhighlight %}
 
-ggmap draws google map image for you. But sometimes, your machine doesn't have these library. Just install them manually.
+ggmap draws google map image for you. But sometimes, your machine doesn't have these library, jpeg and png. Just install them manually.
 
 <h3>2. tm</h3>
 
