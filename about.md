@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About This Blog
+icon_name: user
 ---
 
 
