@@ -8,20 +8,16 @@ icon_name: user
 <p class="message">
   Greeting from South Korea! My Name is Heongyeom Kim. You can call me Haven.
 
-  Open Source, Raspberry Pi, Vim and geek of Linux.
+  I can be represented with Open Source, Raspberry Pi, Automation system and geek of Linux.
 </p>
 
-I'm majoring in Computer Science & Engineering in Korea. It's my last year of the university life. So excited but worried about my future too!
+I'm Korean and majoring in Computer Science & Engineering and this year is my last year of University. Soon I'm going to do my internship in San Diego from August! So excited. Check out my companies works [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/)
 
-I really love to talk with people from other countries. That's why I've been doing penpal for more than 8 years. Love to use English and learn new cultures!
+My main field is software. It's really various but mostly android, java, python and sort of. I'm trying to experience as much as I can, including data processing and machine learning. My recent works are flask and postgresql web site, android application and data processing with python. It's some of my companies' works or my private projects or class project.
 
-Mostly, I took a part of a leader in a group, even a single project team. I learned a lot of important things from that and I'm using it as my special skill.
+I really love to talk to people from other countries and meet them! This is why I always upload posts in English. I have a few friends from other countries and still messaging each other everyday.
 
-My main linux distribution is [Linux Mint](https://www.linuxmint.com/).
-
-Really love to make a funny things with my raspberry pi. It's like a upgraded Lego!
-
-Feel free to help me out or ask me.
+Feel free to contact me anytime!
 
 This blog built in [Jekyll](http://jekyllrb.com), theme for [Hyde](http://hyde.getpoole.com)
 Originally, made by [@mdo](https://twitter.com/mdo).

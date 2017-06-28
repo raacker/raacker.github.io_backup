@@ -22,7 +22,7 @@ paginate_path:    '/blog/page:num'
 gems:             [jekyll-paginate, jekyll-feed]
 
 # Custom vars
-version:          1.1.0
+version:          1.1.1
 
 github:
   repo:           https://github.com/raacker
