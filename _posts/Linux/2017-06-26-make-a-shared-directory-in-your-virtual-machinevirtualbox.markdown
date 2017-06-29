@@ -30,6 +30,6 @@ then check 'Auto-mount' button and press OK.
 
 Step3. Just reboot!
 
-Now you can find the sf_'folder name' on your desktop.
+Now you can find the sf_'folder name' on your desktop. If your shared folder keep disappearing always when you boot your machine, try these steps in Virtualbox Manager.
 
 When I tried this with Lubuntu, it didn't work well actually. I think some of linux distribution support automation or shared folder options. If you're facing any problem, feel free to comment below.
