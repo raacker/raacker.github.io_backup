@@ -9,7 +9,7 @@ tags: [postgresql, pgAdmin]
 ---
 
 My company is using flask for web application and we use postgresql as our DB.
-If you have ever used postgresql, you must be heard about or use 'pgadmin'. It's open source database management tool.  
+If you have ever used postgresql, you must be heard about or use 'pgadmin' before. It's open source database management tool.  
 It's really useful and I found no problems with it.
 
 Except this...
