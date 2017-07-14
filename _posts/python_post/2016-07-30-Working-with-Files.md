@@ -5,7 +5,7 @@ location: "Daejeon, South Korea"
 commentIssueId: 10
 title: Working with Files
 category: Python
-tags: [python study]
+tags: [python]
 ---
 
 Python supports easiest file handling modules.

@@ -5,7 +5,7 @@ date: "2016-07-30 21:20:10 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 9
 category: Python
-tags: [python study]
+tags: [python]
 ---
 
 There are a lot of list functions.

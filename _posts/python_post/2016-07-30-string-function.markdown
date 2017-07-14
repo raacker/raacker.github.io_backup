@@ -5,7 +5,7 @@ date: "2016-07-30 21:04:30 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 8
 category: Python
-tags: [python study]
+tags: [python]
 ---
 
 Python has really various string methods. It is really useful and powerful. Must be handy!

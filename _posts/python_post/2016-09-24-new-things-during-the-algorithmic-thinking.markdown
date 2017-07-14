@@ -5,7 +5,7 @@ date: "2016-09-24 16:18:46 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 11
 category: Python
-tags: [python study, til]
+tags: [python, til]
 ---
 
 Check out amazing coursera course [Algorithmic Thinking Part 1](https://www.coursera.org/learn/algorithmic-thinking-1) and [Algorithmic Thinking Part 2](https://www.coursera.org/learn/algorithmic-thinking-2).
