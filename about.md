@@ -11,7 +11,7 @@ icon_name: user
   I can be represented with Open Source, Raspberry Pi, Automation system and geek of Linux.
 </p>
 
-I'm Korean and majoring in Computer Science & Engineering and this year is my last year of University. Soon I'm going to do my internship in San Diego from August! So excited. Check out my companies works [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/)
+I'm Korean and majoring in Computer Science & Engineering and this year is my last year of University. Soon I'm going to do my internship in San Diego from August! So excited. Check out my company's works [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/)
 
 My main field is software. It's really various but mostly android, java, python and sort of. I'm trying to experience as much as I can, including data processing and machine learning. My recent works are flask and postgresql web site, android application and data processing with python. It's some of my companies' works or my private projects or class project.
 
