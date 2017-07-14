@@ -15,7 +15,7 @@ $ sudo apt-get install python-virtualenv
 
 or
 
-$ sudo pip install virtualenv
+$ pip install virtualenv
 {% endhighlight %}
 
 you can check your virtual environment version.
