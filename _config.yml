@@ -9,7 +9,7 @@ title:            Haven Kim
 tagline:          'Software Engineer'
 
 description:      'Spell book.</br>By Haven Kim.'
-baseurl:          / #https://raacker.github.io
+baseurl:          https://raacker.github.io/
 feedurl:          https://raacker.github.io
 
 author:
