@@ -4,18 +4,15 @@ title: About This Blog
 icon_name: user
 ---
 
-
 <p class="message">
-  Greeting from South Korea! My Name is Heongyeom Kim. You can call me Haven.
-
-  I can be represented with Open Source, Raspberry Pi, Automation system and geek of Linux.
+  Greeting from South Korea! My Name is Heongyeom Kim, Haven, a new-beginning programmer who is interested in Open source development, Linux, Python and love to do something fun with android and raspberry pi.
 </p>
 
-I'm Korean and majoring in Computer Science & Engineering and this year is my last year of University. Soon I'm going to do my internship in San Diego from August! So excited. Check out my company's works [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/)
+My major is Computer Science & Engineering and this year is my last year of University. Currently, I'm working as a full-time sw intern at [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/), San Diego, CA.
 
-My main field is software. It's really various but mostly android, java, python and sort of. I'm trying to experience as much as I can, including data processing and machine learning. My recent works are flask and postgresql web site, android application and data processing with python. It's some of my companies' works or my private projects or class project.
+I'm working on Android, Flask with postgresql and native java application of my company. Trying to learn something more that I've never met! and because my biggest interest is open source programs, keep trying to contribute on funny projects and make my own.
 
-I really love to talk to people from other countries and meet them! This is why I always upload posts in English. I have a few friends from other countries and still messaging each other everyday.
+I really love to talk to people from other countries and meet them! This is why I always upload posts in English. I got amazing friends from other countries that we are still messaging each other everyday.
 
 Feel free to contact me anytime!
 
