@@ -16,7 +16,7 @@ I really love to talk to people from other countries and meet them! This is why 
 
 Feel free to contact me anytime!
 
-heongyeom.kim@gmail.com
+[heongyeom.kim@gmail.com](mailto:heongyeom.kim@gmail.com)
 
 This blog built in [Jekyll](http://jekyllrb.com), theme for [Hyde](http://hyde.getpoole.com)
 Originally, made by [@mdo](https://twitter.com/mdo).
