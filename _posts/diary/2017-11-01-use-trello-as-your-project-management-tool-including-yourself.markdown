@@ -8,7 +8,7 @@ category: Diary
 tags: [trello, management, kanban]
 ---
 
-Since early last year, I've been using [Trello](https://trello.com/) as my memo note and personal project manager. Trello is well-known cardboard system. Many groups and companies are already using Trello as their project management tool and even for the individuals or small groups like study group or school assignment project teams are using it very well.
+Since early last year, I've been using [Trello](https://trello.com/) as my memo note and personal project manager. Trello is well-known cardboard system. Many groups and companies are already using Trello as their project management tool and even for the individuals or small groups like study group or school assignment project teams are using it very well. And also, since it's on the Internet, you can use it everywhere! on your multiple devices!
 
 In this post, I'd like to introduce how I'm using Trello for my projects.
 
