@@ -360,6 +360,7 @@ tbody tr:nth-child(odd) th {
 
 .post-tag{
     color: #779ecb;
+    padding-right: .5rem;
 }
 
 /* Related posts */
