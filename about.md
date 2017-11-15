@@ -21,5 +21,3 @@ Feel free to contact me anytime!
 This blog built in [Jekyll](http://jekyllrb.com), theme for [Hyde](http://hyde.getpoole.com)
 Originally, made by [@mdo](https://twitter.com/mdo).
 Learn more and contribute on [GitHub](https://github.com/poole)!
-
-![](https://s01.flagcounter.com/count2/eS2u/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/)
