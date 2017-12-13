@@ -28,9 +28,11 @@ what's next? just make a directory for sandbox(you can just play with virtual en
 
 {% highlight bash %}
 $ mkdir [your directory]
+
+$ virtualenv [your directory]
 {% endhighlight %}
 
-All setup done!
+After a few instructions and creations, setup will be finished.
 
 {% highlight bash %}
 Activate virtualenv
