@@ -30,6 +30,11 @@ what's next? just make a directory for sandbox(you can just play with virtual en
 $ mkdir [your directory]
 
 $ virtualenv [your directory]
+
+you can select version
+
+$ virtualenv -p python3 [your directory]
+$ virtualenv -p python2 [your directory]
 {% endhighlight %}
 
 After a few instructions and creations, setup will be finished.
