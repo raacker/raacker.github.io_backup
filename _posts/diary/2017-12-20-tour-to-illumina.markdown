@@ -7,7 +7,7 @@ commentIssueId: 29
 category: Diary
 tags: [study, remind, inspired]
 ---
-**Dear diary,**
+<h3>Dear diary,</h3>
 
 I have a partner in my company, EuiTaek. We are doing this amazing internship at the same company, NanoCellect.
 

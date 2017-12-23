@@ -7,6 +7,9 @@ commentIssueId: 30
 category: Diary
 tags: [study, linux]
 ---
+
+<h3>WARNING!</h3>
+
 It's not about totally cool, amazing, hipster-like scripts that magically build and setup whole things for your linux. Completely for my own and customized for my develop environment. And I'm writing down this post to inspire(if you get inspired, awesome) other people to do these if they have similar problems :)
 
 It goes back to Feb 19, 2016. I read some article [내맘대로 쓰는 vim 플러그인과 .vimrc 설정](http://luckyyowu.tistory.com/308), [vim 플러그인 매니저, Vundle + NERDTree 플러그인 설치하기](https://ansuchan.com/install-vundle-and-nerdtree/) (Sorry, they are Korean postings. Just they are about how to customize vim with PluginManager and Vundle) and I tried to make mine. But just writing .vimrc on my Evernote was not enough. I had to open gedit and copy and paste... annoying! So I wanted to store .vimrc on online storage and at that time, I'd just learned how to use git and github. That's how [setup_vim](https://github.com/raacker/setup_vim) started.

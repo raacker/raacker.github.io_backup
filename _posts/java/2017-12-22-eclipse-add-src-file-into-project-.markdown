@@ -8,7 +8,9 @@ category: Java
 tags: [java, eclipse]
 ---
 
-**Sometimes(most of time)**, we need to look up the original source code of JDK. Maybe you want to compare performance of your own logic and provided method, or you want to know why your crash happened inside of library.
+<h3>Sometimes(most of time),</h3>
+
+We need to look up the original source code of JDK. Maybe you want to compare performance of your own logic and provided method, or you want to know why your crash happened inside of library.
 
 Let's add source code into your eclipse and make it easy to browse. (you may find [grepcode.com](http://grepcode.com) is also useful)
 
