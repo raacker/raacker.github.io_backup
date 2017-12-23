@@ -14,6 +14,18 @@ The solution is to make a shared directory! Then you don't have to get experienc
 
 I'll post a way to make shared directory on Virtualbox system. But it will be very similar to VMware way.
 
+Step0. You must install Guest Additions CD program from virtualbox.
+
+Before get started, you must install additional libraries of virtualbox. It only takes 5 minutes.
+
+1. Go [Devices tab -> Click 'Insert Guest Additions CD image']
+
+2. Reboot virtual machine
+
+3. You will be able to find VBOXADDITONS image file and install it.
+
+4. Reboot again
+
 Step1. Give a permission to your user group
 
 {% highlight bash %}
