@@ -4,7 +4,7 @@ title: "xls to csv and encoding problem"
 date: "2017-06-26 21:55:29 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 13
-category: DataScience
+category: Data Science
 tags: [python, R, data science, encoding]
 ---
 

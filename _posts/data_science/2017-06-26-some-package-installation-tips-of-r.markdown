@@ -3,7 +3,7 @@ layout: post
 title: "Some package installation tips of R"
 date: "2017-06-26 22:18:16 +0900"
 commentIssueId: 14
-category: DataScience
+category: Data Science
 tags: [R, data science]
 ---
 
