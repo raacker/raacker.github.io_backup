@@ -14,7 +14,7 @@ We need to look up the original source code of JDK. Maybe you want to compare pe
 
 Let's add source code into your eclipse and make it easy to browse. (you may find [grepcode.com](http://grepcode.com) is also useful)
 
-1. Go [Window tab -> Preferences -> Java -> Installed JREs]
+1) Go [Window tab -> Preferences -> Java -> Installed JREs]
 
 ![](/images/eclipse_add_src_file_into_project-1.PNG)
 
@@ -22,17 +22,17 @@ You will see your JRE directory which is added to eclipse already.
 
 If not(I'm pretty sure there must be at least one JRE because eclipse is also Java program!), please add JRE directory first.
 
-2. Click your JRE and click 'Edit' button
+2) Click your JRE and click 'Edit' button
 
-3. Below the library list, find rt.jar
+3) Below the library list, find rt.jar
 
 ![](/images/eclipse_add_src_file_into_project-2.PNG)
 
-4. Click 'Source Attachment' and find your JDK directory's 'src.zip' file.
+4) Click 'Source Attachment' and find your JDK directory's 'src.zip' file.
 
 ![](/images/eclipse_add_src_file_into_project-3.PNG)
 
-5. Click 'Finish' and 'Apply'
+5) Click 'Finish' and 'Apply'
 
 All set! Now you can immediately move onto the library source class by pressing 'F3' key.
 
