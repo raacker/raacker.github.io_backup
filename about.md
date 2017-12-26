@@ -21,3 +21,5 @@ Feel free to contact me anytime!
 This blog built in [Jekyll](http://jekyllrb.com), theme for [Hyde](http://hyde.getpoole.com)
 Originally, made by [@mdo](https://twitter.com/mdo).
 Learn more and contribute on [GitHub](https://github.com/poole)!
+
+Sidebar image is from Pixabay[source](https://www.pexels.com/photo/code-coding-computer-cyberspace-270373/)
