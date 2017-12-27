@@ -21,4 +21,5 @@ These theories are not easy to digest, not easy to apply and not easy to make yo
 Happy <s>coding</s> Engineering!
 
 If you have never heard about GoF, check this out. [Design Patterns: Elements of Resuable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612), [Wikipedia, Design Patterns : Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns)
+
 There is also Head First series. [Head First Design Patterns : A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)

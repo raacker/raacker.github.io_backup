@@ -22,4 +22,4 @@ This blog built in [Jekyll](http://jekyllrb.com), theme for [Hyde](http://hyde.g
 Originally, made by [@mdo](https://twitter.com/mdo).
 Learn more and contribute on [GitHub](https://github.com/poole)!
 
-Sidebar image is from Pixabay[source](https://www.pexels.com/photo/code-coding-computer-cyberspace-270373/)
+Sidebar image is from Pixabay [source](https://www.pexels.com/photo/code-coding-computer-cyberspace-270373/)
