@@ -347,20 +347,15 @@ tbody tr:nth-child(odd) th {
 
 /* Meta data line below post title */
 .post-date {
+  color: #7a7a7a;
   display: block;
   margin-top: -.05rem;
-  color: #9a9a9a;
 }
 
 .post-location {
+  color: #7a7a7a;
   display: block;
   margin-top: -.05rem;
-  color: #9a9a9a;
-}
-
-.post-tag{
-    color: #779ecb;
-    padding-right: .5rem;
 }
 
 .post-tag-title{
@@ -369,9 +364,14 @@ tbody tr:nth-child(odd) th {
     padding-right: .2rem;
 }
 
-.post-tag-nav-page{
+.post-tag{
     color: #6998ce;
     padding-right: .5rem;
+}
+
+.post-tag-nav-page{
+    color: #6998ce;
+    padding-right: .7rem;
     font-size: 125%
 }
 /* Related posts */
