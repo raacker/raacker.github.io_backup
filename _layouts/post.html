@@ -7,10 +7,20 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   <span class="post-location">{{ page.location }}</span>
   <div class="tags-expo-list">
+    <h class="post-tag-title">Category: </h>
+    {% for tag in site.categories %}
+      {% for post_tag in tag[1] %}
+        {% if post_tag.title == page.title %}
+          <a href="{{ site.baseurl }}category/#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </br>
+    <h class="post-tag-title">Tags: </h>
     {% for tag in site.tags %}
       {% for post_tag in tag[1] %}
         {% if post_tag.title == page.title %}
-          <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }} </a>
+          <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }}</a>
         {% endif %}
       {% endfor %}
     {% endfor %}

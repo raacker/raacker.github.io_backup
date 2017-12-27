@@ -363,6 +363,17 @@ tbody tr:nth-child(odd) th {
     padding-right: .5rem;
 }
 
+.post-tag-title{
+    color: #22262b;
+    font-weight: bold;
+    padding-right: .2rem;
+}
+
+.post-tag-nav-page{
+    color: #6998ce;
+    padding-right: .5rem;
+    font-size: 125%
+}
 /* Related posts */
 .related {
   padding-top: 0rem;

@@ -15,10 +15,20 @@ title: Home
     <span class="post-date">{{ post.date | date_to_string }} </span>
     <span class="post-location">{{ post.location }} </span>
     <div class="tags-expo-list">
+      <h class="post-tag-title">Category: </h>
+      {% for tag in site.categories %}
+        {% for post_tag in tag[1] %}
+          {% if post_tag.title == post.title %}
+            <a href="{{ site.baseurl }}category/#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </br>
+      <h class="post-tag-title">Tags: </h>
       {% for tag in site.tags %}
         {% for post_tag in tag[1] %}
           {% if post_tag.title == post.title %}
-            <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }} </a>
+            <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }}</a>
           {% endif %}
         {% endfor %}
       {% endfor %}
