@@ -5,7 +5,7 @@ date: "2017-03-13 23:10:38 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 6
 category: Diary
-tags: [diary, raspberry pi, embedded, opensource]
+tags: [raspberry pi, embedded, opensource]
 ---
 
 <h2>Not a time traveling story or reapplying to school.</h2> My sophomore was in Mar, 2015 to Feb, 2016. It was brilliant! Because I was just back to school from army(Korea) and I restarted all of my studies.

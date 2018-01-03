@@ -5,7 +5,7 @@ date: "2017-06-29 10:41:40 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 15
 category: Diary
-tags: [diary, jekyll, FontAwesome]
+tags: [jekyll, FontAwesome]
 ---
 
 I just updated my blog with [FontAwesome](http://fontawesome.io/). It's quite amazing toolkit! You can easily use lots of icons for free. But when I implemented at the first time, It gets really bad. Page loaded first and after that, icons were slowly updated. It's not that slow(about 0.3 secs) but a bit annoying. Here's how I resolved this problem.
