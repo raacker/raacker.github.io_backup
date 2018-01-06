@@ -3,7 +3,7 @@ layout: post
 title: "What I learned from my first job interview"
 date: "2018-01-05 10:39:05 -0800"
 location: "San Diego, CA"
-commentIssueId: 34
+commentIssueId: 35
 category: Diary
 tags: [study, algorithm, job interview]
 ---

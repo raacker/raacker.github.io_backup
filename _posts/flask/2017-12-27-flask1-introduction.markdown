@@ -23,3 +23,8 @@ Yes, Flask is really simple and light. It's easy to build, powerful to show grea
 I met this framework in this April, 2017. I had to see how my company's web server works and it was Flask app. I didn't realize how it is amazing at the first glance :) but now, I'm working on a private Flask project and also going to do some personal projects to build back-end and also front-end, building website.
 
 Since I'm studying Flask, I'd like to post my study notes and introduce you how much Flask is good at web server.
+
+<br/>
+I'm taking an Udemy course [REST APIs with Flask and Python](https://www.udemy.com/rest-api-flask-and-python). It's not about whole Flask app stuff but cover some basics and RESTful back-end server. So it worth to learn and I'm enjoying it. I might try to take [The Build a SAAS App with Flask Course](https://www.udemy.com/the-build-a-saas-app-with-flask-course) after this course.
+
+Anyway, my following Flask posts will be based on some Online courses and materials, also including extra informations and links.
