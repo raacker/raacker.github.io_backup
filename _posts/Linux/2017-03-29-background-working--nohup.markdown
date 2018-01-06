@@ -23,12 +23,12 @@ But as we, computer guys, always do in everyday, we had to face the problem. We 
 The answer was using **nohup**.
 
 {% highlight text %}
-nohup is a POSIX command to ignore the HUP (hangup) signal. The HUP signal is, by convention, the way a terminal warns dependent processes of logout.
+nohup is a POSIX command to ignore the HUP (hangup) or SIGHUP signal. The HUP signal is, by convention, the way a terminal warns dependent processes of logout.
 
 {% endhighlight %}
 Reference : [https://en.wikipedia.org/wiki/Nohup](https://en.wikipedia.org/wiki/Nohup)
 
-In other words, noHUP is used for background process which needs to be run whenever the shell is logout or not.
+In other words, not killed with SIGHUP signal, we can keep use our terminal and receive any info or output later.
 
 Our server startup code was like this.
 
@@ -38,9 +38,7 @@ $ java -Xmx1024M -Xms2014M -jar minecraft_server.1.11.2.jar nogui
 
 You can find this code on official website. [https://minecraft.net/en-us/download/server](https://minecraft.net/en-us/download/server)
 
-Now we want to run minecraft server as background!
-
-then shell script will be like this.
+And '&' symbol allows you to run task at background. So final server command will be
 
 {% highlight bash %}
 $ nohup java -Xmx1024M -Xms2014M -jar minecraft_server.1.11.2.jar nogui &
@@ -56,4 +54,4 @@ $ ps -ef | grep nohup
 
 the logs will be included in nohup.out in the same directory where your file located.
 
-Happy mining! I actually died by spider a few hours ago... lost all diamond....
+Happy mining! I actually died by spider a few hours ago... lost all diamonds....
