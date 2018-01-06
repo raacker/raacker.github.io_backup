@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "python virtual environment"
+title: "Python virtual environment or virtualenv"
 date: "2017-07-14 20:56:08 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 17
@@ -8,7 +8,9 @@ category: Python
 tags: [python, virtualenv]
 ---
 
-When you use python frameworks, like flask or django, you need some specific packages to run and sometimes, it depends on what your project is for. So, most of the time, using virtual environment is really useful! If you make a directory and generate virtual environment in it, you can use completely different python version and also packages included with in your python.
+<h3>When you use python frameworks,</h3>
+
+like flask or django, you need some specific packages to run and sometimes, it depends on what your project is for. So, most of the time, using virtual environment is really useful! If you make a directory and generate virtual environment in it, you can use completely different python version and also packages included with in your python.
 
 {% highlight bash %}
 $ sudo apt-get install python-virtualenv
@@ -26,10 +28,9 @@ $ virtualenv --version
 
 what's next? just make a directory for sandbox(you can just play with virtual environment python. Just everything! That's why it is sandbox).
 
-{% highlight bash %}
+{% highlight shell %}
 $ mkdir [your directory]
-
-$ virtualenv [your directory]
+$ virtualenv [your directory] #it will generate your directory if not exists
 
 you can select version
 
