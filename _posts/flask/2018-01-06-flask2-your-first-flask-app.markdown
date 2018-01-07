@@ -10,14 +10,14 @@ tags: [python, flask, study, back-end, web, framework]
 
 ===========================================================<br/>
 **[[ Flask Study Notes ]]**<br/>
-1. [Introduction](https://raacker.github.io/flask/2017/12/27/flask1-introduction/)<br/>
-**2. [Your first Flask app](https://raacker.github.io/flask/2018/01/06/flask2-your-first-flask-app/)<br/>**
-3. HTTP request and CRUD
-4. Useful programs that help you out<br/>
-5. What is RESTful API? and about Flask_RESTful<br/>
-6. HTTP status code<br/>
-7. Authentication<br/>
-8. TBD<br/>
+[1) Introduction](https://raacker.github.io/flask/2017/12/27/flask1-introduction/)<br/>
+**[2) Your first Flask app](https://raacker.github.io/flask/2018/01/06/flask2-your-first-flask-app/)<br/>**
+3) HTTP request and CRUD<br/>
+4) Useful programs that help you out<br/>
+5) What is RESTful API? and about Flask_RESTful<br/>
+6) HTTP status code<br/>
+7) Authentication<br/>
+8) TBD<br/>
 *These Flask post series contain basic of Flask app and building theory*<br/>
 ===========================================================
 
