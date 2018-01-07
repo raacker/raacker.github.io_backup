@@ -32,7 +32,7 @@ But who knows that Flask is simple and easy to use? Let's try now
 $ pip install Flask
 {% endhighlight %}
 
-Wait.. are you on virtualenv or virtual environment? if not, I recommend you to use virtualenv for flask app or any python project. Because when libraries get updated, it may cause your app error. You might want to keep these versions and maintain it yourself. And also, you might not want to mess up your desktop with python libraries. It's actually mess if you install any libraries you want. Imagine it.. web.. scipy.. numpy.. pandas.. game.. you don't need game libraries for Flask(just for now)
+Wait.. before we start, are you on **virtualenv** or virtual environment? if not, I recommend you to use virtualenv for flask app or any python project. Because when libraries get updated, it may cause your app error due to new features or dependencies. You might want to keep these versions and maintain yourself. And also, you might not want to mess up your desktop with python libraries. It's actually mess if you install any libraries you want. Imagine it.. web.. scipy.. numpy.. pandas.. game.. you don't need game libraries for Flask(just for now)
 
 If you have no idea how to do virtualenv, check out [my post](https://raacker.github.io/python/2017/07/14/python-virtual-environment/).
 
@@ -52,9 +52,9 @@ __name__ will be package name of your python. And as a convention, we usually na
 
 Most of site have index page or homepage, like www.google.com/ or www.linkedin.com/. But the WWW part is just only base URL, not an index page url. The last part '/' is indicating index page and it's called 'end point'.
 
-Thus our URL is made of **Base URL** + **End Point**. (for example, play.google.com/music. https://www.youtube.com/channel/UCm6r_b2K5jn1JGkwDcwJXrQ (Ten second song. My favorite channel))
+Thus our URL is made of **Base URL** + **End Point**. (for example, www.google.com/gmail)
 
-And basically, accessing to web site uses GET request. I'll talk about HTTP request on next post. Flask's default request is GET.
+And basically, accessing to web site uses GET request. I'll write about HTTP request on next post. And Flask's default request is GET.
 
 {% highlight python %}
 @app.route('/')
@@ -66,8 +66,9 @@ def homepage():
 
 Flask uses @app.route decorator to add following method to be called when specific URL is requested. [flask/app.py #1165](https://github.com/pallets/flask/blob/master/flask/app.py#L1165)
 
-So our method homepage will be called when our Flaks app requested '/' URL.
+So our method homepage will be called when our Flask app is requested '/' URL.
 
+<br/>
 **Final** step is to run!
 
 {% highlight python %}
@@ -82,6 +83,10 @@ def homepage():
 app.run(port=5000)
 {% endhighlight %}
 
-Basic port number is 5000 but if it's already occupied, try another. And you can put kwarg, debug. If you set debug flag to True, you will be able to see Werkzeug debug messages when your app crashes or faced error.
+Flask's basic port number is 5000 but if it's already occupied, try another. And you can put kwarg, debug. If you set debug flag to True, you will be able to see Werkzeug debug messages when your app crashes or faced error.
+
+{% highlight python %}
+app.run(port=5000, debug=True)
+{% endhighlight %}
 
 Finally, when you run app.py, it will run web server through your localhost and you can see "Hello, World!" on your localhost:5000.
