@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React Study [1] : basic"
+title: "React Study[1]: basic"
 date: "2017-11-15 09:54:42 -0800"
 location: "San Diego, CA"
 commentIssueId: 25

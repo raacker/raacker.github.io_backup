@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React Study [3] : Lifecycle"
+title: "React Study[3]: Lifecycle"
 date: "2017-11-15 11:31:40 -0800"
 location: "San Diego, CA"
 commentIssueId: 27

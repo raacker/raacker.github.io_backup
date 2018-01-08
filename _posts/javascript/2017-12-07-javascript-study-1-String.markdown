@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JavaScript study [1] : String"
+title: "JavaScript study[1]: String"
 date: "2017-12-07 16:55:51 -0800"
 location: "San Diego, CA"
 commentIssueId: 28

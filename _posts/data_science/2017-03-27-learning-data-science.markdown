@@ -5,7 +5,7 @@ date: "2017-03-27 18:43:07 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 4
 category: Data Science
-tags: [python study, R, data science]
+tags: [python, study, R, data science]
 ---
 
 <h4>In this semester,</h4>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React Study [2] : install and build "
+title: "React Study[2]: install and build "
 date: "2017-11-15 11:14:13 -0800"
 location: "San Diego, CA"
 commentIssueId: 26
