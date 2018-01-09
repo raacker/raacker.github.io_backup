@@ -8,7 +8,7 @@ category: Flask
 tags: [python, flask, study, back-end, web, framework]
 ---
 
-===========================================================<br/>
+==============================================<br/>
 **[[ Flask Study Notes ]]**<br/>
 **[1) Introduction](https://raacker.github.io/flask/2017/12/27/flask1-introduction/)<br/>**
 [2) Your first Flask app](https://raacker.github.io/flask/2018/01/06/flask2-your-first-flask-app/)<br/>
@@ -17,9 +17,11 @@ tags: [python, flask, study, back-end, web, framework]
 5) What is RESTful API? and about Flask_RESTful<br/>
 6) HTTP status code<br/>
 7) Authentication<br/>
-8) TBD<br/>
+8) Database : sqlite3<br/>
+9) Database : sqlalchemy<br/>
+10) TBD
 *These Flask post series contain basic of Flask app and building theory*<br/>
-===========================================================
+==============================================
 
 <h3>Introduction</h3>
 
