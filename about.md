@@ -5,12 +5,14 @@ icon_name: user
 ---
 
 <p class="message">
-  Greeting from South Korea! My Name is Heongyeom Kim, Haven, a new-beginning programmer who is interested in Open source development, Linux, Python and love to do something fun with android and raspberry pi.
+  Greeting from South Korea! My Name is HeonGyeom Kim, Haven, a junior developer who is interested in Open source development, Linux, Python and love to do something fun with android and raspberry pi.
 </p>
 
-My major is Computer Science & Engineering and this year is my last year of University. Currently, I'm working as a full-time sw intern at [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/), San Diego, CA.
+I'm majoring in Computer Science & Engineering and going to graduate next February. Currently, I'm in San Diego, CA for full-time Software Engineering internship at [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/). I've been learning a lot and also met lots of amazing people and enjoying 'THE ACTUAL AMAZING' weather ;p
 
-I'm working on Android, Flask with postgresql and native java application of my company. Trying to learn something more that I've never met! and because my biggest interest is open source programs, keep trying to contribute on funny projects and make my own.
+My most interest is open source. Not contributed on big projects yet but it is a kind of my life goal. I'm working on my personal development environment setting projects [setup_linux](https://github.com/raacker/setup_linux) and this blog for sharing my study notes.
+
+Nowadays, I'm doing some back-end stuffs, like dreaming of Full-stack developer (I know, there are only few 'Genuine' full-stack developer. Just aiming to :) ). My projects are based on Flask and trying to add some React features too.
 
 I really love to talk to people from other countries and meet them! This is why I always upload posts in English. I got amazing friends from other countries that we are still messaging each other everyday.
 
