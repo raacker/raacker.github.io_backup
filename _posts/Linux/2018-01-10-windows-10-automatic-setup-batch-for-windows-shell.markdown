@@ -130,6 +130,9 @@ Windows has special copy program called "xcopy"
 
 If you want to copy file, just copy it. But if you want to copy directory, use **/E** option to copy all subdirectories and files inside.
 
+**/Y** option will be used for overwriting files (saying yes to prompt messages)
+**/Q** option is also used for "quiet"
+
 {% highlight text %}
 xcopy C:\Users\haven\Desktop\temp\image.png C:\Users\haven\Desktop\release\image.png
 
@@ -137,7 +140,45 @@ xcopy /E C:\Users\haven\Desktop\temp C:\Users\haven\Desktop\release
 {% endhighlight %}
 
 <br/>
-**8) Delete bat file itself**
+**8) Change wallpaper**
+
+To change wallpaper, we have to add register key
+
+{% highlight text %}
+REG ADD "HKCU\Control Panel\Desktop" /V Wallpaper /T REG_SZ /F /D [image's absolute path]
+{% endhighlight %}
+
+If response says 'request successfully completed', you are good to go. If you reboot or logout your computer, you will see changed wallpaper.
+
+If you want to see your background changed immediately,
+
+{% highlight text %}
+rundll32.exe user32.dll, UpdatePerUserSystemParameters
+{% endhighlight %}
+
+<br/>
+**9) Clear Windows cache**
+
+Windows cache means some "Quick access", "History", so on.
+
+First, we have to delete a register key to see AppData\Roaming\Microsoft\Windows\Recent
+
+{% highlight text %}
+REG Delete HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths /F
+{% endhighlight %}
+
+Then remove all cache data
+
+{% highlight text %}
+del /F /Q C:\Users\[user_name]\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations*
+del /F /Q C:\Users\[user_name]\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations*
+del /F /Q C:\Users\[user_name]\AppData\Roaming\Microsoft\Windows\Recent*
+del /F /Q C:\Users\[user_name]\AppData\Local\Microsoft\Windows\History*
+del /F /Q C:\Users\[user_name]\Downloads*
+{% endhighlight %}
+
+<br/>
+**10) Delete bat file itself**
 
 It's like a magic command
 
