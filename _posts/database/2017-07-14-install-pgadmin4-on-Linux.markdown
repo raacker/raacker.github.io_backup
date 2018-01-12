@@ -5,7 +5,7 @@ date: "2017-07-14 21:57:09 +0900"
 location: "Daejeon, South Korea"
 commentIssueId: 19
 category: Database
-tags: [pgAdmin, postgresql, python, linux]
+tags: [pgAdmin, postgresql, python, linux, database]
 ---
 
 pgAdmin is really awesome open source database management tool. Maybe not that amazing but still quite useful to use on Linux. This is an installation guide.
