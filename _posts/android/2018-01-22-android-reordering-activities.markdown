@@ -14,7 +14,7 @@ reuse your activities, it's actually not easy. You have to care about than you t
 
 Let's see this example.
 
-![](images/reordering_activities.PNG)
+![](/images/reordering_activities.PNG)
 
 Let's say we have to build an application which has Username, Main, Setup activities.
 
@@ -24,7 +24,7 @@ And when user wants to change username, go though 'Setup activity' and go to 'Us
 
 Okay so far it seems all good right? So we put some flags and pass it through intent that shows it is first app launch or during the 'Setup activity'. But here is the problem.
 
-![](images/reordering_activities2.PNG)
+![](/images/reordering_activities2.PNG)
 
 All previous activities will remain behind! Even though we don't need them anymore, activity stack doesn't know it. So if you press "go back" button a few more it will bring you back to old one which still have previous username.
 
