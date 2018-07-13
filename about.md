@@ -5,10 +5,10 @@ icon_name: user
 ---
 
 <p class="message">
-  Greeting from South Korea! My Name is HeonGyeom Kim, Haven, a junior developer who is interested in Open source development, Linux, Python and love to do something fun with android and raspberry pi.
+  Greeting from South Korea! I'm HeonGyeom Kim, Haven, a backend developer who is interested in Open source development, Linux, Python and love to do something fun with android and raspberry pi.
 </p>
 
-I'm majoring in Computer Science & Engineering and going to graduate next February. Currently, I'm in San Diego, CA for full-time Software Engineering internship at [NanoCellect Biomedical, Inc.](http://www.nanocellect.com/). I've been learning a lot and also met lots of amazing people and enjoying 'THE ACTUAL AMAZING' weather ;p
+I'm working as a backend developer at the startup company, [Uconnec.com](http://uconnec.com), Seoul, Korea. Current major stack would be NodeJS with Koa2, MySQL, AWS and React.
 
 My most interest is open source. Not contributed on big projects yet but it is a kind of my life goal. I'm working on my personal development environment setting projects [setup_linux](https://github.com/raacker/setup_linux) and this blog for sharing my study notes.
 
