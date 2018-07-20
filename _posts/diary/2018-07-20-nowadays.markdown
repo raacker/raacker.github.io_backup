@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Nowadays"
+date: "2018-07-20 09:36:05 +0900"
+location: "Seoul, Korea"
+commentIssueId: 41
+category: Diary
+tags: [study, daily_log]
+---
+
+<h3>Nowadays</h3>
+
+Hi there. Been a while (a lot. Literally it has been 6 months since I posted i Jan) and also a lot changed in my life. 
+
+Where do I start... okay the internship. My internship officially finished on Feb 6th. It was amazing experience and I miss San Diego a lot! Everything was perfect, especially weather, and beers, foods, friends.. I still look up my San Diego pictures on the way to work.
+
+At the end of the internship, I had an interview with startup company in Korea and got hired. So after a few days flying back to Korea, immediately started working as a backend engineer.
+
+Yes! As I dreamed to try on Full stack developer, I found a place to achieve that goal and figure out am I really good at backend things, really love these ES6 high-tech(admit it. ES6 is a WAY high tech than C).
+
+Okay. So nowadays, I’m developing NodeJS backend server with MySQL, Koa and through these 5 months of NodeJS, I love it a lot! Still I had to write python code for youtube api script (better and prettier for me) but ES6 is kinda good language for performance and easy to use & maintain! And after writing A LOT of queries with MySQL, Queries became my good friend. Not afraid!
+
+My next plan is to keep working on my company and do skill up my backend and also React, to build what I want to make(Side project).
+
+How’s your life going? Anything special? Let me know!
+
+Happy hacking
