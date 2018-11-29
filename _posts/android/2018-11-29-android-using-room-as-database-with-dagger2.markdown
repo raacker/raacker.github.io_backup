@@ -450,14 +450,16 @@ Happy hacking
 
 <h4>References</h4>
 
-- Thanks for IO_EXECUTOR idea. I love it</br>
-https://gist.github.com/florina-muntenescu/697e543652b03d3d2a06703f5d6b44b5
+- Thanks for IO_EXECUTOR idea. I love it
 
-- I was able to get basic idea of room with this post</br>
-https://android.jlelse.eu/setting-android-room-in-real-project-58a77469737c
+[https://gist.github.com/florina-muntenescu/697e543652b03d3d2a06703f5d6b44b5](https://gist.github.com/florina-muntenescu/697e543652b03d3d2a06703f5d6b44b5)
 
-- Good 7 tips for further readings</br>
-https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1
+- I was able to get basic idea of room with this post
 
-- A Good example of Dagger 2 and room</br>
-https://github.com/laminr/aeroknow
+[https://android.jlelse.eu/setting-android-room-in-real-project-58a77469737c](https://android.jlelse.eu/setting-android-room-in-real-project-58a77469737c)
+
+- Good 7 tips for further readings
+[https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
+
+- A Good example of Dagger 2 and room
+[https://github.com/laminr/aeroknow](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
