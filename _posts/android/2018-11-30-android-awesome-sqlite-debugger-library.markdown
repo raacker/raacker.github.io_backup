@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android: Awesome SQLite debugger library!"
+title: "Android: Awesome SQLite debugger library"
 date: "2018-11-30 20:46:13 +0900"
 location: "Seoul, Korea"
 commentIssueId: 46
