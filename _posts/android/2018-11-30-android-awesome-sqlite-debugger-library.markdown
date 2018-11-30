@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android: Using Room as Database with Dagger2"
+title: "Android: Awesome SQLite debugger library!"
 date: "2018-11-30 20:46:13 +0900"
 location: "Seoul, Korea"
 commentIssueId: 46
