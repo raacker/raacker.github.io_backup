@@ -36,6 +36,8 @@ Okay, let's say you got inspired and just started using Trello. But I'm pretty s
 
 Just a few weeks ago, Trello.inc released [Trello desktop app](https://blog.trello.com/trello-desktop-app-for-mac-and-windows). You can install it at Windows 10 app store or Mac.
 
+But since it is a third party Microsoft App, you need some steps to make it run in front of you.
+
 After you finished installation, **Press Ctrl + R** to open run prompt and type **shell:startup**.
 
 ![](/images/use_trello_as_your_project_management_tool2.PNG)
