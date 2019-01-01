@@ -3,7 +3,7 @@ layout: post
 title: "Android: Fixed header to Navigation View"
 date: "2018-12-21 15:35:13 +0900"
 location: "Seoul, Korea"
-commentIssueId: 49
+commentIssueId: 47
 category: Android
 tags: [android, java, tips]
 ---
