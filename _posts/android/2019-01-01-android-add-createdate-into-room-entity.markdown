@@ -2,7 +2,7 @@
 layout: post
 title: "Android: Add createDate into Room Entity"
 date: "2019-01-01 23:19:13 +0900"
-location: "Seoul, Korea"
+location: "Seoul, South Korea"
 commentIssueId: 48
 category: Android
 tags: [android, java, database, SQLite, room]

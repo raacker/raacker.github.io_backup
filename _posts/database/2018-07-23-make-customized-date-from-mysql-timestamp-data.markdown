@@ -2,7 +2,7 @@
 layout: post
 title: "Make customized date from MySQL timestamp data"
 date: "2018-07-23 00:32:05 +0900"
-location: "Seoul, Korea"
+location: "Seoul, South Korea"
 commentIssueId: 42
 category: Database
 tags: [mysql, database, JavaScript, sequelize, linux]
@@ -31,7 +31,7 @@ const result = await sequelize.query(
 // { createDate: 2018-07-23T00:30:00.000Z },
 {% endhighlight %}
 
-actual data will be on that format, it is called 'ISO format' 
+actual data will be on that format, it is called 'ISO format'
 
 {% highlight javascript %}
 const date = (new Date()).toISOString();

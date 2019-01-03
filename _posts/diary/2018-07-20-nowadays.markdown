@@ -2,7 +2,7 @@
 layout: post
 title: "Nowadays"
 date: "2018-07-20 09:36:05 +0900"
-location: "Seoul, Korea"
+location: "Seoul, South Korea"
 commentIssueId: 41
 category: Diary
 tags: [study, daily_log]
@@ -10,7 +10,7 @@ tags: [study, daily_log]
 
 <h3>Nowadays</h3>
 
-Hi there. Been a while (a lot. Literally it has been 6 months since I posted i Jan) and also a lot changed in my life. 
+Hi there. Been a while (a lot. Literally it has been 6 months since I posted i Jan) and also a lot changed in my life.
 
 Where do I start... okay the internship. My internship officially finished on Feb 6th. It was amazing experience and I miss San Diego a lot! Everything was perfect, especially weather, and beers, foods, friends.. I still look up my San Diego pictures on the way to work.
 

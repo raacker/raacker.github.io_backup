@@ -2,7 +2,7 @@
 layout: post
 title: "Android: Room tiny tips"
 date: "2019-01-01 23:28:13 +0900"
-location: "Seoul, Korea"
+location: "Seoul, South Korea"
 commentIssueId: 49
 category: Android
 tags: [android, java, database, SQLite, room]

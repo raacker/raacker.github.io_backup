@@ -2,7 +2,7 @@
 layout: post
 title: "Android: Using Room as Database with Dagger2"
 date: "2018-11-29 18:52:13 +0900"
-location: "Seoul, Korea"
+location: "Seoul, South Korea"
 commentIssueId: 45
 category: Android
 tags: [android, java, dagger2, database, room]
