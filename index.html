@@ -1,108 +1,64 @@
 ---
 layout: default
-title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }} </span>
-    <span class="post-location">{{ post.location }} </span>
-    <div class="tags-expo-list">
-      <h class="post-tag-title">Category: </h>
-      {% for tag in site.categories %}
-        {% for post_tag in tag[1] %}
-          {% if post_tag.title == post.title %}
-            <a href="{{ site.baseurl }}category/#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
-          {% endif %}
+<div id="content" class="content">
+    <h3>Recent Posts</h3>
+    <ul class="category recent-posts">       
+        {% for post in site.posts limit:5  %}
+        {% unless post.draft %}
+
+        {% if post.menutitle %}
+        {% assign title = post.menutitle %}
+        {% else %}
+        {% assign title = post.title %}
+        {% endif %}
+
+        <li>
+            <div class="article">
+                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header">
+                        <span class="title"><a itemprop="name" href="{{ post.url | absolute_url }}" title="{{ title }}">{{ title }}</a></span>
+                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                    </header>
+                </article>
+            </div>
+        </li>
+        {% endunless %}
         {% endfor %}
-      {% endfor %}
-      </br>
-      <h class="post-tag-title">Tags: </h>
-      {% for tag in site.tags %}
-        {% for post_tag in tag[1] %}
-          {% if post_tag.title == post.title %}
-            <a href="{{ site.baseurl }}tags/#{{ tag[0] | slugify }}" class="post-tag">#{{ tag[0] }}</a>
-          {% endif %}
+    </ul>
+
+
+    {% assign sorted_cats = site.categories | sort %}
+    {% for category in sorted_cats %}
+    {% assign sorted_posts = category[1] | reversed %}
+    <h3 id="{{category[0] | uri_escape | downcase | slugify }}">{{category[0] | camelcase }}</h3>
+    <ul class="category {{category[0] | uri_escape | downcase | slugify}}">  
+        {% for post in sorted_posts %}
+        {% unless post.draft %}
+
+        {% if post.menutitle %}
+        {% assign title = post.menutitle %}
+        {% else %}
+        {% assign title = post.title %}
+        {% endif %}
+
+        <li>
+            <div class="article">
+                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header">
+                        <span class="title"><a itemprop="name" href="{{ post.url | absolute_url }}" title="{{ title }}">{{ title }}</a></span>
+                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                    </header>
+                </article>
+            </div>
+        </li>
+        {% endunless %}
         {% endfor %}
-      {% endfor %}
-    </div>
-    {{ post.content }}
-  </div>
-  <div id="comments" class="comments">
-    <h2>Comments</h2>
-    <div id="header">
-      Want to leave a comment? Visit <a href="https://github.com/raacker/raacker.github.io/issues/{{post.commentIssueId}}"> this post's issue page on GitHub.</a></br> (You'll need a github account)
-    </div>
-  </div>
+    </ul>
+    {% endfor %}
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    function loadComments(data) {
-      for (var i=0; i<data.length; i++) {
-        var cuser = data[i].user.login;
-        var cuserlink = data[i].user.html_url;
-        var clink = data[i].html_url;
-        var cbody = data[i].body_html;
-        var cavatarlink = data[i].user.avatar_url;
-        var cdate = new Date(data[i].created_at);
-        $("#comments").append(
-           "<div class='comment'>" +
-              "<div class='commentheader'>" +
-                "<div class='commentgravatar'>" +
-                  '<img src="' + cavatarlink + '" alt="" width="20" height="20">' +
-                "</div>" +
-                "<a class='commentuser' href=\""+ cuserlink + "\">" +
-                  cuser +
-                "</a>" +
-                "<a class='commentdate' href=\"" + clink + "\">" +
-                  cdate.toLocaleDateString("en") +
-                "</a>" +
-              "</div>" +
-              "<div class='commentbody'>" +
-                cbody +
-              "</div>" +
-            "</div>"
-        );
-      }
-    }
-    $.ajax("https://api.github.com/repos/raacker/raacker.github.io/issues/{{post.commentIssueId}}/comments", {
-      headers: {Accept: "application/vnd.github.v3.html+json"},
-      dataType: "json",
-      success: function(msg){
-        loadComments(msg);
-     }
-    });
-  </script>
-  {% endfor %}
-</div>
 
-<div class="bottom-page">
-  <a class="bottom-page-tags" href="{{ site.baseurl }}tags">Go find more posts with tags</br></a>
-  <a class="bottom-page-categories" href="{{ site.baseurl }}category">Go find more posts with categories</a>
-</div>
 
-{% comment %}
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>
-{% endcomment %}
