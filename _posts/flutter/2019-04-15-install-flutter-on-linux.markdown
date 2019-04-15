@@ -14,16 +14,15 @@ Well, I just tried to follow the description on Flutter docs but didn't work for
 
 Before get started, if you like intelliJ and very okay with android studio, just installing Android studio would be much of time saver. Because I manually installed Android SDK to make flutter app on VSCode without ginormous Android studio.
 
-
-
-1. Clone Flutter repository
+**1) Clone Flutter repository**
 
 {% highlight bash %}
 $ git clone -b stable https://github.com/flutter/flutter.git
 {% endhighlight %}
 
 
-2. Move flutter repo to wherever you want. Since I usually put my programs into '/usr/local/bin', I'll try that.
+**2) Move flutter repo to wherever you want**
+Since I usually put my programs into '/usr/local/bin', I'll try that.
 
 FYI, If your user account have no authority to /usr/local/bin, try this
 
@@ -32,18 +31,19 @@ $ sudo chown $(whoami):$(whoami) /usr/local && sudo chown -R $(whoami):$(whoami)
 {% endhighlight %}
 
 It will change /usr/local directory's owner to your user account & user group. If you know about File Permission, just modify that script, because I assume that's just basic account which has group of same name.
+<br/>
 
-
-3. Add flutter into environment PATH
+**3) Add flutter into environment PATH**
 
 {% highlight bash %}
 $ export PATH="$PATH:(flutter path)/flutter/bin"
 {% endhighlight %}
 
 If you want it to keep on forever, put the line under bottom of your .zshrc or .bashrc.
+<br/>
+<br/>
 
-
-4. Run flutter to download dart SDK automatically.
+**4) Run flutter to download dart SDK automatically.**
 
 {% highlight bash %}
 $ flutter
@@ -56,27 +56,27 @@ $ flutter doctor
 {% endhighlight %}
 
 It will yell at you that you don't have android toolchain or Android SDK.
+<br/>
 
-
-5. Install Android SDK - 1. Install Java
+**5) Install Android SDK - 1. Install Java**
 
 {% highlight bash %}
 $ sudo apt install openjdk-8-jdk
 {% endhighlight %}
 
-You can try to install default-jdk. But on my case, I had to revert the version to 8
+You can try to install default-jdk. But on my case, I had to revert the version to 8.
+<br/>
 
-
-6. Install Android SDK - 2. Install Android SDK
+**6) Install Android SDK - 2. Install Android SDK**
 
 Go to [Android Developer download](https://developer.android.com/studio/#downloads), donwload sdk-tools-linux.zip and unzip it.
 
 {% highlight bash %}
 $ unzip sdk-tools-linux-(your downloaded version).zip
 {% endhighlight %}
+<br/>
 
-
-7. Install Android SDK - 3. Add to PATH
+**7) Install Android SDK - 3. Add to PATH**
 
 Move Android SDK folder to desired location and add to PATH also.
 
@@ -84,17 +84,18 @@ Move Android SDK folder to desired location and add to PATH also.
 $ export PATH="$PATH:(Folder path)/tools:(Folder path)/tools/bin:(Folder path)/platform-tools"
 $ export ANDROID_HOME="(Folder path)"
 {% endhighlight %}
+<br/>
 
-
-8. Install Android SDK - 4. Make repositories.cfg file
+**8) Install Android SDK - 4. Make repositories.cfg file**
 
 {% highlight bash %}
 $ touch ~/.android/repositories.cfg
 {% endhighlight %}
 
-It will be needed to run sdkmanager and install libraries.
+It will be needed to run sdkmanager and install libraries.<br/>
 
-9. Install Android SDK - 5. Install packages
+
+**9) Install Android SDK - 5. Install packages**
 
 {% highlight bash %}
 $ sdkmanager --list
@@ -105,9 +106,9 @@ list command will show you which tools you can install. To run flutter, you need
 {% highlight bash %}
 $ sdkmanager "platform-tools" "platforms;android-28" "build-tools;28.0.3"
 {% endhighlight %}
+<br/>
 
-
-10. Install Android SDK - 5.1. If you got error to run sdkmanager
+**10) Install Android SDK - 5.1. If you got error to run sdkmanager**
 
 If your sdkmanager got error while running on commands, try this
 
@@ -127,16 +128,16 @@ DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME" -XX:+IgnoreUnrecogni
 
 [reference](https://stackoverflow.com/questions/47150410/failed-to-run-sdkmanager-list-android-sdk-with-java-9/47150411)
 
-And try running sdkmanager command again.
+And try running sdkmanager command again.<br/>
 
 
-11. Android licenses accept.
+**11) Android licenses accept**
 
 {% highlight bash %}
 $ flutter doctor --android-licenses
 {% endhighlight %}
 
-Read the licenses and type "y"
+Read the licenses and type "y".<br/>
 
 
 All set!
