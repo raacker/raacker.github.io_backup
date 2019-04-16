@@ -130,6 +130,7 @@ DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME" -XX:+IgnoreUnrecogni
 
 And try running sdkmanager command again.<br/>
 
+If you are going to make Android emulator either, do the same step on "avdmanager".<br/>
 
 **11) Android licenses accept**
 
