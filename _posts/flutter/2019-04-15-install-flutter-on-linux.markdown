@@ -139,6 +139,39 @@ $ flutter doctor --android-licenses
 {% endhighlight %}
 
 Read the licenses and type "y".<br/>
+<br/>
+
+**Additional) Create AVD on linux using avdmanager**
+
+I'm just writing this because I left my android in my home...:( But I really recommend to use Android studio if you need avd. Quick and easy.
+
+First, install some more packages for avdmanager
+
+{% highlight bash %}
+$ sdkmanager "system-images;android-28;google_apis;x86-64"
+{% endhighlight %}
+
+Then run license again to agree with Terms of Use.
+
+{% highlight bash %}
+$ sdkmanager --license
+{% endhighlight %}
+
+Now we are ready to create avd! Please check parameter list on [docs for details](https://developer.android.com/studio/command-line/avdmanager)
+
+{% highlight bash %}
+$ avdmanager create avd --name testavd --package "system-images;android-28;google_apis;x86_64" --abi x86_64 --force
+{% endhighlight %}
+
+To run avd, use emulator. See more details on [docs](https://developer.android.com/studio/run/emulator-commandline) also  
+
+{% highlight bash %}
+$ emulator -list-avds
+$ emulator -avd {avdname}
+{% endhighlight %}
+
+You might need to run as sudo for kvm.
+
 
 
 All set!
