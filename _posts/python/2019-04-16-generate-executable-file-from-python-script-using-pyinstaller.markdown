@@ -23,21 +23,12 @@ $ pip install pyinstaller
 
 First, install pyinstaller using pip. Then you can run pyinstaller on terminal.
 
-There are several options you can re
+There are several options you can install it
 
 {% highlight bash %}
 $ pip install pyinstaller
 {% endhighlight %}
 <br/>
 
-SET setup_name=SteamVR_Setup
 
-pyinstaller.exe --onefile --icon=./polyga_logo.ico --noconsole %setup_name%.py
-pyinstaller.exe --uac-admin %setup_name%.py
-cp ./dist/%setup_name%/%setup_name%.exe.manifest ./
-cp ./dist/%setup_name%.exe ./
-rmdir /S /Q pycache
-rmdir /S /Q build
-rmdir /S /Q dist
-del %setup_name%.spec
-PAUSE
+-- IN DRAFT... --
