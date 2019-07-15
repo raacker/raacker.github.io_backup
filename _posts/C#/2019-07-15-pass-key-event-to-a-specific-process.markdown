@@ -10,7 +10,7 @@ tag: [dotnet, C#]
 
 Let's just go straightforward how to make "KeyEvent" to a specific process using C#.
 
-1. Import libraries
+1) Import libraries
 
 {% highlight C# %}
 using System.Diagnostics;
@@ -29,7 +29,7 @@ If you want to force bring the process, define this dll function
 static extern int SetForegroundWindow(IntPtr point);
 {% endhighlight %}
 
-2. Generate Process and Send command
+2) Generate Process and Send command
 
 {% highlight C# %}
 Process p = Process.GetProcessesByName("Notepad").FirstOrDefault();
@@ -50,6 +50,6 @@ You can just pass String in certain way like "^z" will do Ctrl + Z like undo.
 
 Check this link for more key combi info
 
-[Key combination Reference])(https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys.send?view=netframework-4.8)  
+[Key combination Reference](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys.send?view=netframework-4.8)  
 
 Happy Hacking!
