@@ -1,6 +1,6 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      havenkim                                       # used for author lookup in posts and for first two characters in the about page back button
-  name:         "Jekyll Decent"                               # used to display author name
+  initial:      HK                                       # used for author lookup in posts and for first two characters in the about page back button
+  name:         "Haven Kim"                               # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
   picture:      /assets/johndoe.jpg                           # OPTIONAL: author picture
   bio:          Haven Kim!                                    # OPTIONAL: text below author name in posts
@@ -24,7 +24,7 @@ default:                                                      # Fallback if noth
   s500px:                                                     # OPTIONAL: used in the about page
   reddit:                                                     # OPTIONAL: used in the about page
 havenkim:
-  initial:      havenkim
+  initial:      HK
   name:         "Haven Kim"
   cover:        /assets/mountain-alternative-cover.jpg
   picture:      /assets/johndoe.jpg
