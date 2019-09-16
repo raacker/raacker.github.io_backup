@@ -10,8 +10,8 @@ havenkim:
           location:         "Chungnam National University, South Korea"
           description:      "Bachelor's in Computer Science and Engineering"
     employment:
-        - time:             "10.2018 - 10.2019"
-          location:         "Work at Home"
+        - time:             "10.2018 - Present"
+          location:         "Remote"
           company:          "Polyga Inc."
           position:         "Software Engineer"
           responsibilities:
@@ -27,7 +27,7 @@ havenkim:
             - "Main Developer of Machine Monitoring Android app"
             - "Improved Flask Web server and WOLF Viewer"
     projects:
-        - time:             "01.2016 - 10.2019"
+        - time:             "01.2016 - Present"
           team:             "Self"
           title:            "Automated developement environment setting"
           technologies:     "Shell"

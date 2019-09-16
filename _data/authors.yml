@@ -2,7 +2,7 @@ default:                                                      # Fallback if noth
   initial:      HK                                       # used for author lookup in posts and for first two characters in the about page back button
   name:         "Haven Kim"                               # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
-  picture:      /assets/johndoe.jpg                           # OPTIONAL: author picture
+  picture:      /assets/haven.png                           # OPTIONAL: author picture
   bio:          Haven Kim!                                    # OPTIONAL: text below author name in posts
   location:     South Korea                                       # OPTIONAL: used to display location of the author
   website:                          						  # OPTIONAL: link to the author of a post
@@ -27,7 +27,7 @@ havenkim:
   initial:      HK
   name:         "Haven Kim"
   cover:        /assets/mountain-alternative-cover.jpg
-  picture:      /assets/johndoe.jpg
+  picture:      /assets/haven.png
   bio:          itshaven!
   location:     South Korea
   email:        "haven.cpp@gmail.com"                                                  # OPTIONAL: used in the about page
