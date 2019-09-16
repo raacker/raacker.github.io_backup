@@ -1,5 +1,5 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      jdecent                                       # used for author lookup in posts and for first two characters in the about page back button
+  initial:      havenkim                                       # used for author lookup in posts and for first two characters in the about page back button
   name:         "Jekyll Decent"                               # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
   picture:      /assets/johndoe.jpg                           # OPTIONAL: author picture
@@ -23,12 +23,13 @@ default:                                                      # Fallback if noth
   twitch:                                                     # OPTIONAL: used in the about page
   s500px:                                                     # OPTIONAL: used in the about page
   reddit:                                                     # OPTIONAL: used in the about page
-jdecent:
-  initial:      Haven Kim
+havenkim:
+  initial:      HK
   name:         "Haven Kim"
   cover:        /assets/mountain-alternative-cover.jpg
   picture:      /assets/johndoe.jpg
   bio:          itshaven!
   location:     South Korea
-  email:        "haven.cpp@gmail.com"
+  email:        "haven.cpp@gmail.com"                                                  # OPTIONAL: used in the about page
+  linkedin:     https://www.linkedin.com/in/heongyeom-kim-633650113/
   github:       raacker

@@ -74,7 +74,7 @@ $ pyinstaller your_file.py --uac-admin
 
 Then you can just extract your file which you need including .manifest file.
 
-I wrote batch file to proceed all automatically and clean up files.
+I wrote a batch file to proceed all automatically and clean up files.
 
 {% highlight bash %}
 SET installer_name=MyUACInstaller
