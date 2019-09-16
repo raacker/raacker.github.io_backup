@@ -24,12 +24,12 @@ default:                                                      # Fallback if noth
   s500px:                                                     # OPTIONAL: used in the about page
   reddit:                                                     # OPTIONAL: used in the about page
 havenkim:
-  initial:      HK
+  initial:      havenkim
   name:         "Haven Kim"
   cover:        /assets/mountain-alternative-cover.jpg
   picture:      /assets/johndoe.jpg
   bio:          itshaven!
   location:     South Korea
   email:        "haven.cpp@gmail.com"                                                  # OPTIONAL: used in the about page
-  linkedin:     https://www.linkedin.com/in/heongyeom-kim-633650113/
+  linkedin:     heongyeom-kim-633650113
   github:       raacker
