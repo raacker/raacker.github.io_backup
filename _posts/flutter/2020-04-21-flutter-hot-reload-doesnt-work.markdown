@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "When CMakeList cannot find your library"
-date: "2020-12-12 20:00:19 +0900"
+title: "Flutter hot reload doesn't work!"
+date: "2020-04-21 22:52:19 +0900"
 location: "Suwon, South Korea"
 commentIssueId: 59
 category: Flutter
@@ -22,7 +22,7 @@ And that was my actual story. I've been through lots of stuffs but still have ve
 
 Well but no luck with my new virtual devices? Somehow, hot reload didn't work which was I've never had to care about.
 
-![](/images/post59_not_working.png)
+![](/images/post59_not_working.PNG)
 
 As you can see, hot reload icon is blacked out, non-clickable and also console is saying there was a problem with connecting to host.
 
@@ -30,10 +30,10 @@ As you can see, hot reload icon is blacked out, non-clickable and also console i
 
 If you also see this message, you might want to look at your device's api version which that message never shows you. At this moment (April 2020), highest supported api level is 28.
 
-![](/images/post59_device_list.png)
+![](/images/post59_device_list.PNG)
 
 You will have a quick fix after switching to lower api device!
 
-![](/images/post59_now_it_works.png)
+![](/images/post59_now_it_works.PNG)
 
 Happy flutter-ing
