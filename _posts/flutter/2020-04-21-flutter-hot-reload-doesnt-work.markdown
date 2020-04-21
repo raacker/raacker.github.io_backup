@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "When CMakeList cannot find your library"
-date: "2020-12-12 20:00:19 +0900"
+title: "Flutter hot reload doesn't work!"
+date: "2020-04-21 22:52:19 +0900"
 location: "Suwon, South Korea"
 commentIssueId: 59
 category: Flutter
