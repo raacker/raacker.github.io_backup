@@ -8,6 +8,7 @@ category: C++
 tag: [c++, C#]
 ---
 
+
 Sometimes, it is very painful to do a very small simple thing. Like a... reading all files inside of your directory! Everything you easily do in your cmd, "ls -la | grep .jpg", can haven a bit of flaws for your c++ program.
 
 Well, if you google "read directory in windows", there are so many stackoverflows you can look up for and lots of available options.
@@ -19,12 +20,12 @@ You can use boost, c++17's filesystem, Win32 API or dirent.h snippet. We will go
 If you want to get to-go snippet, just scroll to the bottom for full version.
 
 Our test directory structure looks like this
-```
+{% highlight text %}
 P1.txt   P11.txt  P13.txt  P3.txt  P5.txt  P7.txt  P9.txt
 P10.txt  P12.txt  P2.txt   P4.txt  P6.txt  P8.txt
-```
+{% endhighlight %}
 
-1. Read directory
+<b>1) Read directory</b>
 
 Reading directory is just simple. Get File Handle of your directory using <b>FindFirstFileW</b> and loop through <b>FindNextFileW</b>
 
@@ -56,7 +57,7 @@ int main()
 
 Not too hard right?
 
-2. Filter files based on extensions
+<b>2) Filter files based on extensions</b>
 
 If you want to filter your files, add extension pattern at the end of your dir path.
 
@@ -66,7 +67,7 @@ std::string dirPath = "C:\\Users\\haven\\git\\test\\";
 std::string searchPath = dirPath + "*" + pattern);
 {% endhighlight %}
 
-3. Check if the path is exist. And also specify the path is directory or file
+<b>3) Check if the path is exist. And also specify the path is directory or file</b>
 
 Once you walk through directory path, they are all existing paths. But you can double check whether file exists or not. Also if your directory is full of files and directories, you might also want to filter out to files or directories.
 
@@ -86,7 +87,7 @@ bool isDirectory(const std::string& path)
 }
 {% endhighlight %}
 
-4. Sort your names in natural order.
+<b>4) Sort your names in natural order.</b>
 
 If you followed the snippets, you might already saw that result seems not right.
 
@@ -143,7 +144,7 @@ std::sort(result.begin(), result.end(), natural_less);
 {% endhighlight %}
 
 
-5. Full code with refactored interface!
+<b>5) Full code with refactored interface!</b>
 
 {% highlight C++ %}
 #include <string>
@@ -263,7 +264,7 @@ bool ReadDirectory(
 {% endhighlight %}
 
 
-6. Wide string (unicode) version
+<b>6) Wide string (unicode) version</b>
 
 {% highlight C++ %}
 #include <string>
@@ -379,6 +380,6 @@ bool ReadDirectoryW(
 }
 {% endhighlight %}
 
-Now you got a powerful Copy+C,V tool you can use anywhere! 
+Now you got a powerful Copy+C,V tool you can use anywhere!
 
 Happy Hacking!
