@@ -20,7 +20,7 @@ But if you need to link external project to your new solution and if you need al
 
 CAUTION! This is just one of the solution to make it work. If you find any better solution, please share!
 
-<b>1) Create empty project to your solution. And add this option under <PropertyGroup Label="Global"></b>
+<b>1) Create empty project to your solution. And add this option under PropertyGroup</b>
 
 {% highlight text %}
 <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
