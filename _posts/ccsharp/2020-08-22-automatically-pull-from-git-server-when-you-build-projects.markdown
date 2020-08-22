@@ -44,13 +44,20 @@ if not exist "%Repo_Path%" git clone git@PATH:your_repo.git %Repo_Path%
 :: If you want to pull specific branch, for example develop branch.
 :: if not exist "%Repo_Path%" git clone --single-branch --branch develop git@PATH:your_repo.git %Repo_Path%
 cd %Repo_Path%
+
+:: You might want to reset any working copies before pull command.
+:: git reset --hard HEAD
 git pull origin develop
 {% endhighlight %}
 
 You need to set repo path you are referring to.
 
-**2) Add call command to your build event**
+**2) Create a new project and add call command to build event**
 
 start /wait "YOUR_BATCH_FILE_PATH"
 
 **3) All Set!**
+
+Now when you want to reset your external git repo, just build this project then it will pull everything in a easy manner.
+
+Happy Hacking!
